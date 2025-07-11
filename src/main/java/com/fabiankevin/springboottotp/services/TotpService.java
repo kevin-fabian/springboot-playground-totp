@@ -48,7 +48,7 @@ public class TotpService {
     public void verifyCode(String secret, String code) {
         boolean validCode = codeVerifier.isValidCode(secret, code);
         log.info("Code is valid: {}", validCode);
-        if(validCode){
+        if(!validCode){
             throw new RuntimeException("Invalid code");
         }
     }

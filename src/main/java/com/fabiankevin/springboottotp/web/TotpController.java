@@ -15,7 +15,7 @@ import java.util.Map;
 @Slf4j
 public class TotpController {
     // hardcoded secret for demonstration purposes
-    private String secret = "OMJP4MQHF7MRWJ4ROUIFP5GJKTVRTKQK";
+    private String secret = "DOTQCFD5N7CTV4ESZPG7XJLZWVHQZGMK";
 
     private final TotpService totpService;
 
