@@ -1,7 +1,7 @@
 # Spring Boot TOTP Demo
 
 This project is a demonstration of implementing Time-based One-Time Password (TOTP) authentication using Spring Boot.
-I've tested this with the Google Authenticator app.
+This demo app is tested with Google Authenticator only.
 
 ## Features
 
